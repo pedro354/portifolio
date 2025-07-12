@@ -54,7 +54,7 @@ Bem-vindo(a) ao meu portfólio pessoal! Aqui compartilho um pouco sobre quem sou
 
 ## Ver Portifólio em ação:
 
-Ver Portifolio https://portifolio-pedrojs.vercel.app/
+Portifolio https://portifolio-pedrojs.vercel.app/
 
 ## 📸 Preview
 
