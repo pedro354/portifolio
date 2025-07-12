@@ -41,28 +41,21 @@ Bem-vindo(a) ao meu portfólio pessoal! Aqui compartilho um pouco sobre quem sou
 
 ---
 
-## 📂 Como rodar o projeto
-
-## 1. Clone este repositório:
-#  ```bash
-#  git clone https://github.com/pedro354/portifolio.git
-# Navegue até o diretório:
-
-#    cd portifolio
-
-#    Abra o index.html no seu navegador ou utilize uma extensão tipo Live Server no VSCode.
-
 # 🎯 Objetivo
 
-# Este portfólio tem como objetivo apresentar minhas habilidades e projetos, além de servir como um laboratório para testar novas tecnologias e aprimorar meu front-end e back-end.
+ Este portfólio tem como objetivo apresentar minhas habilidades e projetos, além de servir como um laboratório para testar novas tecnologias e aprimorar meu front-end e back-end.
 # 📫 Contato
 
 # Entre em contato comigo por aqui:
 
-#    LinkedIn: Pedro Silva
+    LinkedIn: Pedro Silva
 
-#    GitHub: @pedro354
+    GitHub: @pedro354
 
-#📸 Preview
+## Ver Portifólio em ação:
+
+https://portifolio-ten-gamma-84.vercel.app/
+
+## 📸 Preview
 
 # ![alt text](image.png)
