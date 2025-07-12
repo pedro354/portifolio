@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Partículas Teste</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #000;
+    }
+
+    #tsparticles {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+  </style>
+</head>
+<body>
+
+<div id="tsparticles"></div>
+
+<script src="js/tsparticles.bundle.min.js"></script>
+<script src="particles.js"></script>
+<script>
+  tsParticles.load("tsparticles", {
+    background: {
+      color: { value: "transparent" }
+    },
+    fpsLimit: 60,
+    particles: {
+      number: {
+        value: 50,
+        density: {
+          enable: true,
+          area: 800
+        }
+      },
+      color: {
+        value: "#00ffd5"
+      },
+      shape: {
+        type: "char",
+        character: {
+          value: ["</>", "JS", "HTML", "λ"]
+        }
+      },
+      opacity: {
+        value: 0.6,
+      },
+      size: {
+        value: 16,
+        random: true
+      },
+      move: {
+        enable: true,
+        speed: 1,
+        direction: "top",
+        outModes: {
+          default: "out"
+        }
+      }
+    },
+    interactivity: {
+      events: {
+        onHover: { enable: false },
+        onClick: { enable: false },
+        resize: true
+      }
+    },
+    detectRetina: true
+  });
+</script>
+
+</body>
+</html>

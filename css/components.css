@@ -1,0 +1,77 @@
+.firstParagraph {
+  color: #0daaa5;
+  opacity: 1;
+  animation: fade-in 1s ease-in forwards;
+  animation-delay: 0.5s;
+  font-size: 50px;
+  font-family: 'Audiowide', sans-serif;
+}
+.secondParagraph{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'Audiowide', sans-serif;
+  font-weight: 400;
+  color: #e2e1e190;
+}
+.textSpan{
+  color: #f8f8f8!important;
+}
+.thirdParagraph{
+  font-size: 15px;
+    color: #ffffff42;
+  font-style: italic;
+}
+
+/* botão */
+.seeMore{
+  background-color: #0daaa5;
+  color: #ffffff;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+#glitchBtn {
+  font-family: monospace;
+  font-size: 20px;
+  width: 100%;
+  color: #00ffe7;
+  background-color: transparent;
+  border: 2px solid #00ffe7;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#glitchBtn:hover {
+  background-color: rgba(0, 255, 231, 0.1);
+}
+
+.curriculo {
+  background: orange;
+  border: transparent;
+  border-radius: 2px;
+  padding: 10px;
+  color: #fff;
+  width: 100%;
+    font-size: 20px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+    padding: 10px 20px;
+
+}
+
+.groupBtn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.inactive{
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
