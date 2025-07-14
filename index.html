@@ -4,13 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Portifolio PedroJS - Desenvolvedor Fullstack JavaScript</title>
-<meta name="description" content="Portifolio de Pedro, desenvolvedor fullstack especializado em JavaScript, React, Node.js e muito mais. Confira meus projetos e skills!" />
-<meta name="google-site-verification" content="tYPTIgyruF-B_AUK68WX9Jg3sLfxZzEXk5DbfHoiw14" />
-<meta name="robots" content="index, follow" />
+  <title>Portifolio PedroJS - Desenvolvedor Fullstack JavaScript</title>
+  <meta name="description"
+    content="Portifolio de Pedro, desenvolvedor fullstack especializado em JavaScript, React, Node.js e muito mais. Confira meus projetos e skills!" />
+  <meta name="google-site-verification" content="tYPTIgyruF-B_AUK68WX9Jg3sLfxZzEXk5DbfHoiw14" />
+  <meta name="robots" content="index, follow" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="/css/base.css">
   <link rel="stylesheet" href="/css/layout.css">
   <link rel="stylesheet" href="/css//components.css">
@@ -18,39 +19,35 @@
   <link rel="stylesheet" href="css/code-window.css">
   <link rel="stylesheet" href="css/animations.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mediaquerie.css">
 </head>
 
 <body>
   <header class="header" data-aos-easing="ease-out-cubic" data-aos="fade-down" data-aos-duration="1000">
     <nav id="nav" class="nav">
-      <div class="col"></a>
-        <!-- <div class="logo-container">
-          <img src="img/logo.png" alt="Logo" class="logo">
-        </div> -->
-        <h4 class="textSpan" id="home"></h4>
-      </div>
+      <h4 class="textSpan" id="home"></h4>
       <div class="col">
         <ul class="abas-nav">
           <li class="aba active" id="abaActive"><a href="">
-            <i class="bi bi-house-door-fill"></i>
+              <i class="bi bi-house-door-fill"></i>
               home
             </a></li>
           <li class="aba"><a href="#sobre">
-            <i class="bi bi-person-vcard-fill"></i>
+              <i class="bi bi-person-vcard-fill"></i>
               sobre
             </a></li>
           <li class="aba"><a href="#skills">
-            <i class="bi bi-lightning-charge-fill"></i>
+              <i class="bi bi-lightning-charge-fill"></i>
               skills
             </a></li>
           <li class="aba"><a href="#projetos">
-            <i class="bi bi-folder2-open"></i>
+              <i class="bi bi-folder2-open"></i>
               projetos
             </a></li>
           <li class="aba"><a href="#contato">
-            <i class="bi bi-chat-dots-fill"></i>
-            contato
-          </a></li>
+              <i class="bi bi-chat-dots-fill"></i>
+              contato
+            </a></li>
         </ul>
 
       </div>
@@ -59,18 +56,20 @@
   <!-- Secção Primária -->
   <div class="container" data-aos="fade-in" data-aos-easing="ease-in-out" data-aos-duration="1000">
     <div class="row">
-      <div class="col">
+      <div class="col-sm">
         <div class="intro-container">
           <h1 class="firstParagraph" id="typing">Hello, World!</h1>
           <h4 class="secondParagraph">Desenvolvedor Fullstack Junior</h4>
           <p class="thirdParagraph">"Codar é transformar ideias em realidades que impactam o mundo."</p>
           <div class="groupBtn">
             <button id="glitchBtn" class="seeMore"><a href="#sobre">Saiba mais</a></button>
-            <button class="curriculo bi-download" ><a target="_blank" href="/pdf/curriculo.pdf" download > Curriculo</a></button>
+            <button class="curriculo bi-download"><a target="_blank" href="/pdf/curriculo.pdf" download>
+                Curriculo</a></button>
           </div>
         </div>
+
       </div>
-      <div class="col">
+      <div class="col-sm">
         <div class="terminal-container">
           <div class="top-side">
             <div class="circle"></div>
@@ -102,30 +101,37 @@
     <span class="method">console</span>.log(<span class="string">`☕ Combustível: ${developer.fuel}`</span>);
     <span class="method">console</span>.log(<span class="string">`📡 Status: ${developer.status}`</span>);
     } <span class="keyword">catch</span> (error) {
-    <span class="method">console</span>.error(<span class="string">"❌ Erro ao carregar os dados do Pedro:"</span>, error.message);
+    <span class="method">console</span>.error(<span class="string">"❌ Erro ao carregar os dados do Pedro:"</span>, error.message);  
     }
     }
     <span class="function">introduction</span>();
     </code>
     </pre>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="bi-arrow-down"></div>
+  </div>
+</div>
+
+</div>
+    </div>        <span class="bi-arrow-down"></span>
+
   </div>
   <!-- Secção Secundária -->
   <main class="mainContainer">
     <div class="box-asp">
       <!-- Sobre -->
-      <section class="about-section" id="sobre" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-offset="300">
+      <section class="about-section" id="sobre" data-aos="fade-up" data-aos-duration="1000"
+        data-aos-easing="ease-in-out" data-aos-offset="300">
         <h2 class="about-title"><i class="bi bi-terminal"></i>Sobre</h2>
         <p class="about-text">
-          Desenvolvedor Fullstack apaixonado por criar soluções inteligentes e interfaces que realmente entregam valor. Tenho experiência prática no desenvolvimento de aplicações web completas, desde o front-end responsivo utilizando React.js, Typescript, JavaScript, Next.js, Taiwlwind CSS até a lógica do back-end com Node.js, ApiRest, PostgreSQL. Atualmente, atualmente cursando engenharia de software. Sigo evoluindo todos os dias com grandes projetos práticos e estudos continuos.
+          Desenvolvedor Fullstack apaixonado por criar soluções inteligentes e interfaces que realmente entregam valor.
+          Tenho experiência prática no desenvolvimento de aplicações web completas, desde o front-end responsivo
+          utilizando React.js, Typescript, JavaScript, Next.js, Taiwlwind CSS até a lógica do back-end com Node.js,
+          ApiRest, PostgreSQL. Atualmente, atualmente cursando engenharia de software. Sigo evoluindo todos os dias com
+          grandes projetos práticos e estudos continuos.
         </p>
       </section>
       <!-- Habilidades -->
-      <section class="skill-section" id="skills" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+      <section class="skill-section" id="skills" data-aos="fade-up" data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
         <h3 class="skill-title"><i class="bi bi-terminal"></i>Habilidades</h3>
         <div class="box-skill-content">
           <h3 class="modal-title"><i class="bi bi-code-slash"></i> Front-End</h3>
@@ -162,7 +168,7 @@
             </div>
           </div>
         </div>
-                <div class="box-skill-content">
+        <div class="box-skill-content">
           <h3 class="modal-title"><i class="bi bi-server"></i> Back-End</h3>
           <div class="skill-list">
             <div class="skill">
@@ -192,42 +198,45 @@
 
       </section>
       <!-- Projetos -->
-      <section id="projetos" class="project-section" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-          <h3 class="project-title"><i class="bi bi-terminal"> Projetos</i></h3>
-          <div class="neon-wrapper">
-            <div class="card-projects">
-              <div class="headCard">
-                <span class="headName">todo-list.js</span><span class="headStatus">running <i class="circle-fill"></i></span>
-              </div>
-              <div class="terminalCard">
-                <comment class="comment">// Server started,</comment>
-                <span class="bi-hdd-stack"> <span class="server">Server started</span> <span class="keyword">npm
-                    start</span></span>
-              </div>
-              <h2 class="headCard">ToDo-List</h2>
-              <h5 class="descriptionCard">Lista de tarefas interativa com salvamento no sql. Adicone, conclua e remova
-                tarefas.</h5>
-              <div>
-                <span class="badge abaTech">Node.js</span>
-                <span class="badge abaTech">Express</span>
-                <span class="badge abaTech">Css</span>
-              </div>
-              <div class="groupBtn">
-                <button class="btn-search-code">Ver Projeto</button>
-              </div>
+      <section id="projetos" class="project-section" data-aos="fade-up" data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
+        <h3 class="project-title"><i class="bi bi-terminal"> Projetos</i></h3>
+        <div class="neon-wrapper">
+          <div class="card-projects">
+            <div class="headCard">
+              <span class="headName">todo-list.js</span><span class="headStatus">running <i
+                  class="circle-fill"></i></span>
+            </div>
+            <div class="terminalCard">
+              <comment class="comment">// Server started,</comment>
+              <span class="bi-hdd-stack"> <span class="server">Server started</span> <span class="keyword">npm
+                  start</span></span>
+            </div>
+            <h2 class="headCard">ToDo-List</h2>
+            <h5 class="descriptionCard">Lista de tarefas interativa com salvamento no sql. Adicone, conclua e remova
+              tarefas.</h5>
+            <div>
+              <span class="badge abaTech">Node.js</span>
+              <span class="badge abaTech">Express</span>
+              <span class="badge abaTech">Css</span>
+            </div>
+            <div class="groupBtn">
+              <button class="btn-search-code">Ver Projeto</button>
             </div>
           </div>
+        </div>
       </section>
       <!-- Contato -->
-      <section class="contact-section" id="contato" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
+      <section class="contact-section" id="contato" data-aos="zoom-in" data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
         <h3 class="contact-title"><i class="bi bi-terminal"></i>Contate-me</h3>
-        <!-- From Uiverse.io by Pradeepsaranbishnoi --> 
-<div class="social-links">	
-		<div id="linkedin" class="flex-center bi-linkedin"></div>
+        <!-- From Uiverse.io by Pradeepsaranbishnoi -->
+        <div class="social-links">
+          <div id="linkedin" class="flex-center bi-linkedin"></div>
 
-		<div id="github" class="flex-center bi-github"></div>
-</div>
-</main>
+          <div id="github" class="flex-center bi-github"></div>
+        </div>
+  </main>
 
   <footer class="footer">
     <p>&copy; 2025 Pedro - Todos os direitos reservados. - Vannila JS</p>
@@ -239,7 +248,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
     crossorigin="anonymous"></script>
-      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
