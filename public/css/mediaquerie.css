@@ -41,6 +41,9 @@ top: 0;
     .container{
         padding: 0px 50px;
     }
+    .bi-arrow-down{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 630px) {
