@@ -3,13 +3,13 @@
 ![Badge Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-green)  
 ![GitHub](https://img.shields.io/badge/Made%20by-Pedro%20Silva-blue)
 
-Bem-vindo(a) ao meu portfólio pessoal! Aqui compartilho um pouco sobre quem sou, minhas habilidades e projetos que venho desenvolvendo como **Desenvolvedor Fullstack**.
+Bem-vindo(a) ao meu portfólio pessoal! Aqui compartilho um pouco sobre quem sou, minhas habilidades e projetos que venho desenvolvendo como **Desenvolvedor Fullstack JavaScript**.
 
 ---
 
-## 🚀 Tecnologias utilizadas
+## 🚀 Tecnologias Utilizadas
 
-### Front-end
+### ⚙️ Front-end
 - HTML5
 - CSS3
 - JavaScript
@@ -17,45 +17,49 @@ Bem-vindo(a) ao meu portfólio pessoal! Aqui compartilho um pouco sobre quem sou
 - Next.js
 - Tailwind CSS
 
-### Back-end
+### 💾 Back-end
 - Node.js
 - Express.js
 - PostgreSQL
-- (Aprendendo) Python, MongoDB
+- *(Aprendendo)* Python, MongoDB
 
-### Ferramentas e Metodologias
+### 🧰 Ferramentas e Metodologias
 - Git & GitHub
 - Figma
 - Notion
-- Metodologias Ágeis (Scrum)
+- Scrum (Agile)
 
 ---
 
 ## 🌟 Funcionalidades
 
-✅ Animações suaves com **AOS.js**  
-✅ Efeito de terminal simulando código JS  
-✅ Design responsivo e intuitivo  
-✅ Barra de skills com preenchimento animado  
-✅ Cards de projetos no estilo "terminal hacker" 😎
+- ✅ Animações com **AOS.js**
+- ✅ Terminal interativo simulando código JavaScript
+- ✅ Design 100% responsivo
+- ✅ Animações de skills em barra progressiva
+- ✅ Cards de projetos no estilo “terminal hacker” 😎
 
 ---
 
-# 🎯 Objetivo
+## 🎯 Objetivo
 
- Este portfólio tem como objetivo apresentar minhas habilidades e projetos, além de servir como um laboratório para testar novas tecnologias e aprimorar meu front-end e back-end.
-# 📫 Contato
+Este portfólio tem como propósito apresentar minhas habilidades, projetos e evolução como desenvolvedor. Além disso, serve como um laboratório de testes e experiências com tecnologias modernas de front e back-end.
 
-# Entre em contato comigo por aqui:
+---
 
-    LinkedIn: Pedro Silva
+## 📫 Contato
 
-    GitHub: @pedro354
+- [LinkedIn](https://www.linkedin.com/in/seu-linkedin-aqui)  
+- [GitHub](https://github.com/pedro354)
 
-## Ver Portifólio em ação:
+---
 
-Portifolio 
+## 🔗 Ver Portfólio Online
+
+👉 **[Acesse aqui](https://pedrojs.vercel.app/)**
+
+---
 
 ## 📸 Preview
 
-# ![alt text](image.png)
+![Preview do Portfólio](./image.png)
