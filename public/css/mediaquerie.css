@@ -38,17 +38,26 @@ top: 0;
     align-items: center;
     text-align: center;
     }
-    .container{
-        padding: 10px!important;
-
-    }
     .bi-arrow-down{
         display: none;
     }
-    .main-side pre{
-        padding: 0!important;
-        font-size: 0.70rem;
+        .container .intro-container .terminal-container{
+width: 100%;
+border: solid 1px rgb(0, 255, 89);
+
+    padding: 0 !important;
+    font-size: small;
+    height: 50px;
     }
+
+    .main-side pre {
+    font-size: 0.45rem;
+    }
+    .header{
+font-size: 0.88em;
+    text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 630px) {
