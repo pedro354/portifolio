@@ -39,7 +39,7 @@ top: 0;
     text-align: center;
     }
     .container{
-        padding: 0!important;
+        padding: 10px!important;
 
     }
     .bi-arrow-down{
@@ -47,7 +47,7 @@ top: 0;
     }
     .main-side pre{
         padding: 0!important;
-        font-size: 0.75rem;
+        font-size: 0.70rem;
     }
 }
 
