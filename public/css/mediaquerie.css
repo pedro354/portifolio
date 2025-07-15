@@ -38,6 +38,9 @@ top: 0;
     .header{
         text-align: center;
     }
+    .nav{
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 630px) {
