@@ -39,8 +39,7 @@ top: 0;
     text-align: center;
     }
     .container{
-        padding: 0px 50px;
-                border: solid 1px rgb(38, 0, 255);
+        padding: 0;
 
     }
     .bi-arrow-down{
