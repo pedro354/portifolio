@@ -3,11 +3,13 @@
   color: #ccc;
   border-radius: 10px;
   width: 100%;
-  max-width: max-content;
+  max-width: 100%;
       margin: 0 auto;
   font-family: 'Fira Code', monospace;
   box-shadow: 0px 0 5px #00f0ff33, 0px 0px 0px #00fff2;
-    overflow: hidden;
+    overflow-x: auto;
+    box-sizing: border-box;
+    padding: 0 1rem;
   display: flex;
   flex-direction: column;
   animation: neonGlow 2s infinite alternate;
@@ -48,7 +50,12 @@
   border-radius: 10px;
   text-align: left;
 }
-
+pre, code{
+  overflow-x: auto;
+  max-width: 100%;
+  display: block;
+  word-break: break-word;
+}
 /* Colorização fake de código */
 .keyword {
   color: #c792ea;
