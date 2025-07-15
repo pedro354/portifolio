@@ -86,11 +86,12 @@ top: 0;
 
 @media screen and (max-width: 380px) {
     .container {
-width: auto;
+width: 100%;
     padding: 0 !important;
     font-size: small;
     height: 50px;
     }
+
     .main-side pre {
     font-size: 0.45rem;
     }
