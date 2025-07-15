@@ -41,6 +41,9 @@ top: 0;
     .nav{
         justify-content: center;
     }
+    .main-side pre{
+        font-size: 0.80rem;
+    }
 }
 
 @media screen and (max-width: 630px) {
