@@ -102,6 +102,23 @@ font-size: 0.88em;
 
 }
 
+@media screen and (max-width: 350px) {
+    .container .intro-container .terminal-container{
+width: 100%;
+    padding: 0 !important;
+    font-size: small;
+    height: 50px;
+    }
+
+    .main-side pre {
+    font-size: 0.40rem;
+    }
+    .header{
+font-size: 0.88em;
+    text-align: center;
+    }
+}
+
 @media screen {
   html:not(.no-js) [data-aos^="fade"][data-aos^="fade"] {
     opacity: 0;
