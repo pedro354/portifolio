@@ -46,6 +46,8 @@ top: 0;
     }
     .terminal-container{
         margin: 0 auto;
+        border: solid 1px rgb(38, 0, 255);
+
         padding: 1rem;
     }
 }
@@ -91,6 +93,8 @@ top: 0;
 @media screen and (max-width: 380px) {
     .container .intro-container .terminal-container{
 width: 100%;
+border: solid 1px rgb(0, 255, 89);
+
     padding: 0 !important;
     font-size: small;
     height: 50px;
@@ -109,7 +113,7 @@ font-size: 0.88em;
 @media screen and (max-width: 350px) {
     .container .intro-container .terminal-container{
 width: 100%;
-outline: solid 1px red;
+border: solid 1px red;
     padding: 0 !important;
     font-size: small;
     height: 50px;
