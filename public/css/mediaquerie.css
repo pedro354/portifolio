@@ -45,12 +45,13 @@ top: 0;
     .bi-arrow-down{
         display: none;
     }
-    .terminal-container{
+    .container .terminal-container{
         padding: 0!important;
         font-size: 0.01rem;
         margin: 0 20px;
-        width: 80%;
+        overflow-x: hidden;
     }
+
 }
 
 @media screen and (max-width: 630px) {
@@ -141,6 +142,6 @@ font-size: 0.88em;
     transition-property: opacity,-webkit-transform;
     transition-property: opacity,transform;
     transition-property: opacity,transform,-webkit-transform;
-    height: auto;
+    min-height: 100%;
   }
 }
