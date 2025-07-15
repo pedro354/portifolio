@@ -14,11 +14,14 @@ html {
   min-width: auto;
   scroll-behavior: smooth;
   scroll-padding-top: 80px;
+  min-height: 100vh;
+  min-width: 100%;
 }
 
 html,
 body {
   min-height: 100vh;
+  padding: 0;
 }
 
 body {
