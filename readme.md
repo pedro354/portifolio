@@ -1,6 +1,6 @@
 # 💻 Pedro Silva - Portfólio Fullstack
 
-![Badge Status][(https://img.shields.io/badge/Status--green)
+![Badge Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-green))
 
 Bem-vindo(a) ao meu portfólio pessoal! Aqui compartilho um pouco sobre quem sou, minhas habilidades e projetos que venho desenvolvendo como **Desenvolvedor Fullstack JavaScript**.
 
