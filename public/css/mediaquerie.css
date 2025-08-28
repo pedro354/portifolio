@@ -35,14 +35,23 @@ top: 0;
         width: max-content;
         padding: 0!important;
     }
-    .header{
+    .header .nav{
         text-align: center;
-    }
-    .nav{
         justify-content: center;
+        padding: 0px 15px;
     }
     .main-side pre{
-        font-size: 0.80rem;
+        white-space: pre-wrap;
+        white-space: pre-line;
+        white-space: -moz-pre-wrap;
+        white-space: -pre-wrap;
+        white-space: -o-pre-wrap;
+        white-space: -ms-pre-wrap;
+        word-wrap: break-word;
+       padding: 10px;
+    }
+    .bi-arrow-down{
+        display: none;
     }
 }
 
