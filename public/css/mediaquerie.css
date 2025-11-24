@@ -105,6 +105,9 @@ gap: 6%;
     #glitchBtn {
     padding: inherit;
     }
+    .card-projects, .neon-wrapper{
+        width: 100%;
+    }
 }
 
 
