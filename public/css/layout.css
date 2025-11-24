@@ -4,9 +4,7 @@
   flex-direction: row;
   align-items: center;
   width: 100%;
-  justify-content: right;
   gap: 4%;
-  margin: 15px;
     padding:  10px;
     font-family: 'orbitron', monospace;
 }
