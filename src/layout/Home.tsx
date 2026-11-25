@@ -82,6 +82,14 @@ export function Home() {
                                 <span className={styles.badge}>Typescript</span>
                                 <span className={styles.badge}>Node.js</span>
                             </div>
+                            <a
+    href="https://task-manager21.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+    Visualizar projeto →
+</a>
+
                         </article>
                         <article className={styles.card}>
 <img
