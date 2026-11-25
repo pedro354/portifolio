@@ -5,7 +5,7 @@ import { BsTypescript } from "react-icons/bs";
 import { FaNodeJs, FaBootstrap, FaGitAlt,FaLinkedin,FaGithub    } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { MdOutlineEmail } from "react-icons/md";
-import taskManager from "../assets/taskManager.png"
+import taskmanager from "../assets/taskmanager.png"
 export function Home() {
     return (
         <div className={styles.container}>
@@ -74,7 +74,7 @@ export function Home() {
                     </div>
                     <div className={styles.cardProjects}>
                         <article className={styles.card}>
-                            <img className={styles.imagemock} src={taskManager} />
+                            <img className={styles.imagemock} src={taskmanager} />
                             <h2 className={styles['card-title']}>TaskManager</h2>
                             <p className={styles['card-text']}>Gerenciador de tarefas inspirado na metodologia Kanban</p>
                             <div className={styles.badgegroups}>
