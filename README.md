@@ -1,73 +1,71 @@
-# React + TypeScript + Vite
+# 👨‍💻 Pedro | Desenvolvedor Full Stack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Olá! Seja bem-vindo ao meu portfólio.
 
-Currently, two official plugins are available:
+Sou estudante de Engenharia de Software e desenvolvedor em constante evolução, apaixonado por tecnologia, desenvolvimento web e criação de soluções que resolvem problemas reais.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Meu foco está no ecossistema JavaScript, desenvolvendo aplicações modernas tanto no frontend quanto no backend.
 
-## React Compiler
+## 🚀 Tecnologias
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+- TypeScript
+- React.js
+- Next.js
+- Tailwind CSS
+- Bootstrap
 
-## Expanding the ESLint configuration
+### Backend
+- Node.js
+- Express
+- TypeScript
+- REST APIs
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Banco de Dados
+- PostgreSQL
+- MySQL
+- Prisma ORM
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Ferramentas
+- Git e GitHub
+- VS Code
+- Vite
+- Vercel
+- Render
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 💻 Projetos
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Clinic System
+Sistema de gerenciamento para clínicas psicológicas, desenvolvido com arquitetura full stack.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+**Tecnologias:** React, TypeScript, Node.js, Express, PostgreSQL e Prisma.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Autenticação de usuários com JWT.
+- Gerenciamento de sessões e acesso protegido.
+- API REST estruturada em camadas.
+- Interface responsiva.
+- Backend e frontend integrados.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+**Repositório:** [Clinic System](https://github.com/pedro354/sistema-clinica)
+
+## 🎯 Objetivos
+
+- Aprimorar minhas habilidades em desenvolvimento Full Stack.
+- Desenvolver aplicações escaláveis e bem estruturadas.
+- Aprofundar meus conhecimentos em arquitetura de software.
+- Evoluir continuamente como engenheiro de software.
+
+## 📫 Contato
+
+- **GitHub:** [@pedro354](https://github.com/pedro354)
+- **LinkedIn:** [Adicionar perfil]
+- **Portfólio:** Em breve.
+
+---
+
+<p align="center">
+  Desenvolvido por Pedro ❤️
+</p>
