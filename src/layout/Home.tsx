@@ -110,20 +110,6 @@ export function Home() {
                                     Visualizar projeto →
                                 </a>
                             </article>
-                            <article className={ styles.card }>
-                                <img className={ styles.imagemock } src={ "" } alt="" />
-                                <h2 className={ styles['card-title'] }>DevNotes</h2>
-                                <p className={ styles['card-text'] }>
-                                    Plataforma de organização de conhecimento para desenvolvedores, permitindo criar, editar e categorizar anotações técnicas, armazenar trechos de código e centralizar informações em um ambiente organizado.
-                                </p>
-                                <div className={ styles.badgegroups }>
-                                    <span className={ styles.badge }>React</span>
-                                    <span className={ styles.badge }>Typescript</span>
-                                    <span className={ styles.badge }>Node.js</span>
-                                </div>
-                                <a className={styles.viewProject} href="" target="_blank" rel="noopener noreferrer">Visualizar projeto →</a>
-
-                            </article>
                         </div>
                     </section>
                 </section>
