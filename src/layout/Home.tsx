@@ -11,8 +11,9 @@ export function Home() {
         <div className={styles.container}>
             <header className={styles.headerContent}>
                 <div className="image-link">
-                <img src="/" alt="< PS />" /> 
-                </div>
+<div className="image-link">
+    <span>&lt; PS /&gt;</span>
+</div>                </div>
                 <nav>
                     <a href="#about">Sobre</a>
                     <a href="#projects">Projetos</a>
@@ -83,15 +84,29 @@ export function Home() {
                             </div>
                         </article>
                         <article className={styles.card}>
-                            <img className={styles.imagemock} src={""} alt="" />
-                            <h2 className={styles['card-title']}>SecureAuth API</h2>
-                            <p className={styles['card-text']}>API de autenticação segura com JWT e proteção avançada.</p>
-                            <div className={styles.badgegroups}>
-                                <span className={styles.badge}>React</span>
-                                <span className={styles.badge}>Typescript</span>
-                                <span className={styles.badge}>Node.js</span>
-                            </div>
-                        </article>
+<img
+    className={styles.imagemock}
+    src="/design/clinic-system.png"
+    alt="Interface do Clinic System"
+/>                            <h2 className={styles['card-title']}>Gestão de Clínicas Psicológicas</h2>
+                            <p className={styles['card-text']}>Aplicação Full Stack para gerenciamento de clínicas psicológicas, com autenticação JWT, controle de acesso, API REST e persistência de dados com PostgreSQL.</p>
+<div className={styles.badgegroups}>
+    <span className={styles.badge}>React</span>
+    <span className={styles.badge}>TypeScript</span>
+    <span className={styles.badge}>Node.js</span>
+    <span className={styles.badge}>Express</span>
+    <span className={styles.badge}>PostgreSQL</span>
+    <span className={styles.badge}>Prisma</span>
+</div>
+
+<a
+    href="https://sistema-clinica-jet.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+    Visualizar projeto →
+</a>
+</article>
                         <article className={styles.card}>
                             <img className={styles.imagemock} src={""} alt="" />
                             <h2 className={styles['card-title']}>DevNotes</h2>
