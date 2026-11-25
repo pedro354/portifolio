@@ -352,7 +352,7 @@
   justify-content: flex-start;
   align-items: center;
 
-  min-height: 3.5rem;
+  min-height: 4rem;
   margin: 0 0 0.5rem;
 }
 
@@ -362,8 +362,7 @@
   color: #9a9999b0;
   font-size: 1rem;
   line-height: 1.6;
-
-  min-height: 8rem;
+  min-height: 10rem;
   margin: 0 0 1rem;
 }
 
@@ -371,11 +370,8 @@
 
 .badgegroups {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 0.5rem;
   flex-wrap: wrap;
-
+  gap: 0.5rem;
   margin-top: auto;
   padding-top: 1rem;
 }
@@ -439,7 +435,6 @@
 ======================================== */
 
 @media (max-width: 960px) {
-
   .headerContent {
     padding: 25px;
   }
@@ -466,7 +461,6 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-
 }
 
 /* ========================================
@@ -474,7 +468,6 @@
 ======================================== */
 
 @media (max-width: 640px) {
-
   .headerContent {
     flex-direction: column;
     justify-content: center;
@@ -587,7 +580,6 @@
     text-align: center;
     padding: 25px 15px;
   }
-
 }
 
 /* ========================================
@@ -595,7 +587,6 @@
 ======================================== */
 
 @media (max-width: 360px) {
-
   .heroTitle {
     font-size: 2.5rem;
   }
@@ -627,5 +618,4 @@
   .btnLT {
     width: 100%;
   }
-
 }
