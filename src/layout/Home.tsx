@@ -76,8 +76,9 @@ export function Home() {
                         <article className={styles.card}>
                             <img className={styles.imagemock} src={taskmanager} />
                             <h2 className={styles['card-title']}>TaskManager</h2>
-                            <p className={styles['card-text']}>Gerenciador de tarefas inspirado na metodologia Kanban</p>
-                            <div className={styles.badgegroups}>
+<p className={styles['card-text']}>
+    Aplicação de gerenciamento de tarefas inspirada na metodologia Kanban, permitindo organizar atividades em diferentes etapas, acompanhar o progresso e visualizar o fluxo de trabalho de maneira simples e intuitiva.
+</p>                            <div className={styles.badgegroups}>
                                 <span className={styles.badge}>React</span>
                                 <span className={styles.badge}>Typescript</span>
                                 <span className={styles.badge}>Node.js</span>
@@ -97,8 +98,9 @@ export function Home() {
     src="/design/clinic-system.png"
     alt="Interface do Clinic System"
 />                            <h2 className={styles['card-title']}>Gestão de Clínicas Psicológicas</h2>
-                            <p className={styles['card-text']}>Aplicação Full Stack para gerenciamento de clínicas psicológicas, com autenticação JWT, controle de acesso, API REST e persistência de dados com PostgreSQL.</p>
-<div className={styles.badgegroups}>
+<p className={styles['card-text']}>
+    Aplicação Full Stack para gerenciamento de clínicas psicológicas, com autenticação JWT, controle de acesso, API REST, gerenciamento de dados e persistência em banco de dados PostgreSQL.
+</p><div className={styles.badgegroups}>
     <span className={styles.badge}>React</span>
     <span className={styles.badge}>TypeScript</span>
     <span className={styles.badge}>Node.js</span>
@@ -118,7 +120,9 @@ export function Home() {
                         <article className={styles.card}>
                             <img className={styles.imagemock} src={""} alt="" />
                             <h2 className={styles['card-title']}>DevNotes</h2>
-                            <p className={styles['card-text']}>Aplicação de notas para desenvolvedores.</p>
+<p className={styles['card-text']}>
+    Plataforma de organização de conhecimento para desenvolvedores, permitindo criar, editar e categorizar anotações técnicas, armazenar trechos de código e centralizar informações em um ambiente organizado.
+</p>
                             <div className={styles.badgegroups}>
                                 <span className={styles.badge}>React</span>
                                 <span className={styles.badge}>Typescript</span>
